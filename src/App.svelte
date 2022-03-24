@@ -19,11 +19,11 @@
         class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
         <div class="w-0 flex-1 flex">
           <a
-            href="https://testdemo.df4k5vf4iqelo.amplifyapp.com/"
+            href="https://demo.df4k5vf4iqelo.amplifyapp.com"
             class="inline-flex">
             <img
               class="sm:h-8 w-32 sm:w-auto sm:h-10"
-              src="https://s3.amazonaws.com/aws-mobile-hub-images/aws-amplify-logo.png"
+              src="https://ibb.co/V9ZCKvk"
               alt="Auto-Abstract" />
           </a>
         </div>

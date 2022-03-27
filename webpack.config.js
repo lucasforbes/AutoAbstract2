@@ -28,8 +28,11 @@ module.exports = {
 				use: {
 					loader: 'svelte-loader',
 					options: {
-						emitCss: true,
-						hotReload: true,
+						// Switch for production?
+						// emitCss: true,
+						// hotReload: true,
+						emitCss: false,
+						hotReload: false,
 						preprocess: sveltePreprocess({
 							// https://github.com/kaisermann/svelte-preprocess/#user-content-options
 							sourceMap: !prod,

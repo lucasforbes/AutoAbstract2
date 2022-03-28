@@ -19,12 +19,14 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
-    "start": "webpack-dev-server --content-base public"
+    "start": "webpack-dev-server --content-base public -s"
   },
   "dependencies": {
     "@aws-amplify/auth": "^3.4.6",
     "@tailwindcss/ui": "^0.6.2",
-    "aws-amplify": "^3.3.3"
+    "aws-amplify": "^3.3.3",
+    "svelte-navigator": "^3.1.5",
+    "svelte-router-spa-webpack": "^5.5.4"
   },
   "license": "MIT"
 }

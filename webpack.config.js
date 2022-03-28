@@ -18,6 +18,7 @@ module.exports = {
 	},
 	output: {
 		path: __dirname + '/public',
+		publicPath: "/views/public/",
 		filename: '[name].js',
 		chunkFilename: '[name].[id].js'
 	},
@@ -32,7 +33,7 @@ module.exports = {
 						// emitCss: true,
 						// hotReload: true,
 						emitCss: false,
-						hotReload: false,
+						hotReload: true,
 						preprocess: sveltePreprocess({
 							// https://github.com/kaisermann/svelte-preprocess/#user-content-options
 							sourceMap: !prod,
